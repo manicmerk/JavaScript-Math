@@ -8,6 +8,6 @@ var daysPerYear = 365;
 var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
 document.write('<p class="size">There are ' + secondsPerDay + ' seconds in a day</p>');
 
-var yearsAlive = 34;
-var secondsAlive = yearsAlive * weeksPerYear * daysPerWeek * hoursPerDay * minsPerHour * secondsPerMin;
-document.write('<p class="size">I\'ve been alive more than ' + secondsAlive + ' seconds!</p>');
+var yearsAlive = prompt("What is your current age?");
+var secondsAlive = yearsAlive * daysPerYear * hoursPerDay * minsPerHour * secondsPerMin;
+document.write('<p class="size">I\'ve been alive more than <span class="alive">' + secondsAlive + '</span> seconds!</p>');

@@ -110,3 +110,9 @@ p {
     color: red;
     font-size: 2.5em;
 }
+
+.alive {
+    background-color: black;
+    border-color: red;
+    border-style: solid;
+}

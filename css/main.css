@@ -116,3 +116,18 @@ p {
     border-color: red;
     border-style: solid;
 }
+
+.math {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1080px;
+  background: white;
+  padding: 30px 15px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}

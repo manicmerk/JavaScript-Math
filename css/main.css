@@ -35,7 +35,7 @@ body {
 
 h1,
 h2 {
-  font-size: 2.4em;
+  font-size: 5em;
   font-weight: 400;
   margin-bottom: 8px;
   color: #384047;
@@ -104,4 +104,9 @@ p {
   -webkit-box-shadow: 0 2px 0 0 #2c6085;
   -moz-box-shadow: 0 2px 0 0 #2c6085;
   box-shadow: 0 2px 0 0 #2c6085;
+}
+
+.size {
+    color: red;
+    font-size: 2.5em;
 }
